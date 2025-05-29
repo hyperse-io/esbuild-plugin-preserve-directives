@@ -8,11 +8,10 @@ export default defineConfig({
   clean: true,
   silent: true,
   format: 'esm',
-  splitting: true,
   dts: true,
   treeshake: false,
   sourcemap: true,
-  external: [],
+  external: ['esbuild'],
   esbuildOptions(options) {
     options.jsx = 'automatic';
   },

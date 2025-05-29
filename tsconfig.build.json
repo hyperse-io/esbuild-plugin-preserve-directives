@@ -3,7 +3,6 @@
   "compilerOptions": {
     "rootDir": "./src",
     "incremental": false,
-    "moduleResolution": "nodenext",
     "paths": {}
   },
   "exclude": ["**/*.stories.tsx", "**/*.stories.mdx", ".storybook/**", "dist"]
