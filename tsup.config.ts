@@ -3,7 +3,7 @@ import { preserveDirectivesPlugin } from './src/preserve-directives.js';
 
 export default defineConfig({
   outDir: 'dist',
-  entry: ['src/*/index.ts'],
+  entry: ['src/index.ts'],
   tsconfig: 'tsconfig.build.json',
   clean: true,
   silent: true,
