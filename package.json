@@ -1,6 +1,6 @@
 {
   "name": "@hyperse/esbuild-plugin-preserve-directives",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin that preserves important directives (e.g., 'use client') at the top of output files for esbuild, tsup, etc.",
   "keywords": [
     "hyperse",
